@@ -1,0 +1,186 @@
+h1
+{
+	width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin: auto; 
+    border-radius: 12px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+p
+{
+    width: 900px; 
+    font-family: "Comic Sans MS", cursive;
+    margin: auto; 
+    border-radius: 12px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+#p2
+{
+    width: 900px; 
+    font-family: "Comic Sans MS", cursive;
+    margin: auto; 
+    border-radius: 12px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+#retour
+{
+	width: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: auto;
+	border-radius: 12px;
+    border: 1px solid black;
+	text-align: center;
+	font-size: 1.4em;
+	background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+#texte
+{
+    width: 350px; 
+    margin: auto; 
+    border-radius: 10px;
+    border: 4px solid black;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+}
+
+#encadre
+{
+    width: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    background:rgba(0,0,0,0.7);
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    border-radius: 10px;
+    border: 4px solid black;
+    padding: 4px;
+    font-size: 1.4em;
+}
+
+#encadre_gros
+{
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    background:rgba(0,0,0,0.7);
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    border-radius: 10px;
+    border: 4px solid black;
+    padding: 4px;
+    font-size: 3em;
+}
+
+h2
+{
+    font-size: 50px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align: center;
+    background: linear-gradient(red, rgb(50,0,0))
+}
+
+body 
+{
+	margin:auto;
+	color:black;
+	background-color:white;
+	background-image:url(images/fallout_wallpaper.png);
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+@media screen and (max-width: 870px)
+{
+    aside
+    {
+    	display: block;
+    	width: auto;
+    	margin-left: 2.5%;
+    	margin-right: 2.5%;
+    	float: none;
+    	clear: both;
+    }
+}
+
+aside 
+{ 
+	display: inline-block;
+    vertical-align: top;
+    float:right;
+    width:400px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 12px;
+    margin-bottom: 0px;
+    position: absolute; right: 20px; top: 188px;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+img 
+{
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 10px;
+ 	border: 2px solid black;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+a
+{
+    color: #87CEEB;
+    text-align: center;
+}
+
