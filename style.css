@@ -36,6 +36,11 @@ p
     -moz-transition: all 0.5s;
 }
 
+.flotte 
+{
+	float:left;
+}
+
 #p2
 {
     width: 900px; 
