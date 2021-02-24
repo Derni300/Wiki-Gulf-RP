@@ -87,6 +87,8 @@ p
     padding: 12px;
     margin-bottom: 20px;
     font-size: 1.4em;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
 }
 
 #encadre
