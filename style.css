@@ -117,6 +117,24 @@ p
     font-size: 3em;
 }
 
+section
+{
+    width:400px;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 12px;
+    margin-top: 376px;
+    margin-right: 20px;
+    float: right;
+    background:rgba(0,0,0,0.7);
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
 h2
 {
     font-size: 50px;
@@ -181,6 +199,11 @@ img
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
+}
+
+.gif_up
+{
+	
 }
 
 a
