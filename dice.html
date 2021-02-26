@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" type="image/png" href="images/vaultboy_face.png">
+        <link rel="stylesheet" href="style.css"/>
+        <title>Dice</title>
+    </head>
+
+    <script type="text/javascript">
+		function lancer_simple(n)
+		{
+    		for (i=1 , suite='' ; i<=n ; i++ )
+    		{
+        		de=Math.ceil(20*Math.random());
+        		suite=suite + '<img src=\'dices/' + de.toString() + '.jpg\' alt=\'' + de.toString() + 
+        		'\'/><br/>'
+    		}
+    		mydiv.innerHTML = de;
+		}	
+	</script>
+
+	<body>
+		<br>
+    	<h1>Dice</h1>
+
+    	<div id="p2">
+        	<input type="button" value="Lancer simple" onClick="lancer_simple(1);" /><br>
+        	<div id="encadre">
+				<div id="mydiv">
+				</div>
+			</div>
+		</div>
+    </body>
+</html>
