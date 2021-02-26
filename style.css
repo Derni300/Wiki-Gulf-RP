@@ -5,7 +5,10 @@ body
     background-color:white;
     background-image:url(images/fallout_wallpaper.png);
     background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-attachment: fixed;
+    background-repeat: repeat-y;
 }
 
 h1
