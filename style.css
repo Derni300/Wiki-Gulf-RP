@@ -134,17 +134,9 @@ p
 
 section
 {
-    width:400px;
-    border-radius: 10px;
-    border: 1px solid black;
     color: #FFFFFF;
     text-align: justify;
     padding: 12px;
-    margin-top: 376px;
-    margin-right: 20px;
-    float: right;
-    background:rgba(0,0,0,0.7);
-    opacity: 1;
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
@@ -161,32 +153,21 @@ h2
     background: linear-gradient(red, rgb(50,0,0))
 }
 
-@media screen and (max-width: 870px)
-{
-    aside
-    {
-    	display: block;
-    	width: auto;
-    	margin-left: 2.5%;
-    	margin-right: 2.5%;
-    	float: none;
-    	clear: both;
-    }
-}
-
 aside 
 { 
-	display: inline-block;
-    vertical-align: top;
-    float:right;
     width:400px;
+    display: inline-block;
+    float: right;
+    overflow:auto;
+    padding-left: .5rem;
+    margin-left: .5rem;
     border-radius: 10px;
     border: 1px solid black;
     color: #FFFFFF;
     text-align: justify;
-    padding: 12px;
-    margin-bottom: 0px;
-    position: absolute; right: 20px; top: 188px;
+    margin-right: 40px;
+    margin-top: 390px;
+    padding: 12px;    
     background:rgba(0,0,0,0.7);
     opacity: 1;
     transition: all 0.5s;
